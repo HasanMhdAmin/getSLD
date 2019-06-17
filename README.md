@@ -5,8 +5,29 @@
 
 download the JAR file from `lib/Hostname-1.0-SNAPSHOT.jar` and add it in your project.
 
-`String host = Hostname.getHostname("https://www.example.com");`
+```java 
+String host = Hostname.getHostname("https://www.example.com");
+```
 
+###### How to add it to maven `pom.xml`?
+
+```xml
+<dependency>
+    <groupId>com.github.HasanMhdAmin</groupId>
+    <artifactId>Hostname</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <scope>system</scope>
+    <systemPath>${basedir}/lib/Hostname-1.0-SNAPSHOT.jar</systemPath>
+</dependency>
+<!--...-->
+<plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+    <configuration>
+        <includeSystemScope>true</includeSystemScope>
+    </configuration>
+</plugin>
+```
 ## Sample 
 suppose you have these URLs:
 * https://www.example.com/watch?v=TEST 
