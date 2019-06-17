@@ -3,7 +3,7 @@
 
 ## Usage
 
-download the JAR file from `lib/Hostname-1.0-SNAPSHOT.jar` and add it in your project.
+download the JAR file from **`lib/Hostname-1.0-SNAPSHOT.jar`** and add it in your project.
 
 ```java 
 String host = Hostname.getHostname("https://www.example.com");
