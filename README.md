@@ -36,7 +36,7 @@ suppose you have these URLs:
 * https://www.example.co.uk
 * example.com
 
-and you need the output to be only the host name, 
+The output to be only the host name, 
 in the previous example the result for all domains should be **`example`**.
 
 
