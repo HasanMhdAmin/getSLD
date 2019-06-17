@@ -1,6 +1,11 @@
 # **Hostname**
   get the hostname of a URL
 
+## Usage
+
+download the JAR file from `lib/Hostname-1.0-SNAPSHOT.jar` and add it in your project.
+
+`String host = Hostname.getHostname("https://www.example.com");`
 
 ## Sample 
 suppose you have these URLs:
