@@ -9,9 +9,9 @@ import java.util.List;
  * Created by Hasan Mhd Amin
  **/
 
-class Hostname {
+public class Hostname {
 
-    static String getHostname(String url) {
+    public static String getHostname(String url) {
         String domainName;
         try {
             domainName = getDomainName(url);
