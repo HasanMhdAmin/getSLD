@@ -1,5 +1,5 @@
-# **Hostname**
-  get the hostname of a URL
+# **Get SLD (second level domain)**
+  get the SLD (second level domain) of a URL
 
 ## Usage
 
